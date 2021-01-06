@@ -72,6 +72,7 @@ There are a number of limits you should consider when planning your Private Link
 * An Azure Monitor resource (Workspace or Application Insights component) can connect to 5 AMPLSs at most.
 * An AMPLS object can connect to 50 Azure Monitor resources at most.
 * An AMPLS object can connect to 10 Private Endpoints at most.
+* When you add Private Endpoints for AMPLS  then you need atleast 5 Ip addresses available in the subnet.
 
 In the below topology:
 * Each VNet connects to only **1** AMPLS object.
